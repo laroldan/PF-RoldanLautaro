@@ -98,7 +98,7 @@ footer {
 
 .section__preg {
   background-color: whitesmoke;
-  border: solid black 2px;
+  border: solid #bcbcbc 1.5px;
 }
 
 @keyframes bounce1 {
