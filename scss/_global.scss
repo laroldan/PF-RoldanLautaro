@@ -18,6 +18,10 @@ body {
   resize: none;
 }
 
+.fsize {
+  font-size: small;
+}
+
 .anima {
   animation-duration: map-get($animation, duration);
   animation-timing-function: map-get($animation, timing);

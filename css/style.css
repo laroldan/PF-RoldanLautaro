@@ -27,6 +27,10 @@ body {
   resize: none;
 }
 
+.fsize {
+  font-size: small;
+}
+
 .anima, .section__image2, .section__image, .bounce_2, .bounce_1 {
   animation-duration: 1s;
   animation-timing-function: linear;
