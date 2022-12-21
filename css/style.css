@@ -80,7 +80,7 @@ footer {
 }
 
 .section__image {
-  border: solid black 1px;
+  border: solid #f1e1c2 0.5px;
   width: 250px;
   animation-name: Zoomimg;
   animation-delay: 50ms;
