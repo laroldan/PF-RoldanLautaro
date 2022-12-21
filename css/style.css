@@ -27,11 +27,7 @@ body {
   resize: none;
 }
 
-.anima,
-.section__image2,
-.section__image,
-.bounce_2,
-.bounce_1 {
+.anima, .section__image2, .section__image, .bounce_2, .bounce_1 {
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-fill-mode: backwards;
@@ -54,11 +50,8 @@ header {
   z-index: 1;
 }
 
-.border--black,
-.container__alone,
-nav {
-  border-top: solid black 2px;
-  border-bottom: outset black 2px;
+.border--black, .container__alone, nav {
+  border-top: solid grey 1px;
 }
 
 nav {
@@ -123,11 +116,7 @@ footer {
   }
 }
 @keyframes bounce2 {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
+  0%, 20%, 50%, 80%, 100% {
     transform: translateX(0);
     transform: translateX(0);
   }
