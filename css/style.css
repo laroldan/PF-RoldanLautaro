@@ -51,7 +51,7 @@ header {
 }
 
 .border--black, .container__alone, nav {
-  border-top: solid grey 1px;
+  border-top: solid #f1e1c2 1px;
 }
 
 nav {
