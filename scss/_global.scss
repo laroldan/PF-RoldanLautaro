@@ -55,11 +55,9 @@ nav {
 
 section {
   background-color: $third-color;
-  background-image: url(../img/waves/wave3.svg), url(../img/waves/wave2.svg),
-    url(../img/logo/logo2.png);
+  background-image: url(../img/waves/wave3.svg), url(../img/waves/wave2.svg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: top, bottom, center center;
-  background-size: auto, auto, 20vw;
 }
 
 .container__alone {
