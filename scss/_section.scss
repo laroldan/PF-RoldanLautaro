@@ -1,0 +1,24 @@
+.section__image {
+  border: solid black 1px;
+  width: 250px;
+  animation-name: Zoomimg;
+  animation-delay: 50ms;
+  @extend .anima;
+}
+
+.section__image2 {
+  width: 500px;
+  filter: grayscale(50%);
+  animation-name: Zoomimg;
+  animation-delay: 50ms;
+  @extend .anima;
+
+  &:hover {
+    filter: none;
+  }
+}
+
+.section__preg {
+  background-color: $third-color;
+  border: solid black 2px;
+}

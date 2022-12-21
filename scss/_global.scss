@@ -1,0 +1,74 @@
+body {
+  @include sizes(100%, 100vh);
+  font-family: $thefont-font-family !important;
+}
+
+.logo {
+  @include sizes(auto, 60px);
+  padding: 10px 10px 5px 5px;
+}
+
+.logo__social {
+  @include sizes(20px, 20px);
+  margin-top: 5px;
+  padding-left: 2px;
+}
+
+.resizeTA {
+  resize: none;
+}
+
+.anima {
+  animation-duration: map-get($animation, duration);
+  animation-timing-function: map-get($animation, timing);
+  animation-fill-mode: map-get($animation, fill);
+}
+
+.bounce_1 {
+  animation-name: bounce1;
+  animation-duration: map-get($animation, duration2);
+  @extend .anima;
+}
+
+.bounce_2 {
+  animation-name: bounce2;
+  animation-delay: map-get($animation, delay);
+  @extend .anima;
+}
+
+header {
+  background-color: $first-color;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.border--black {
+  border-top: solid black 2px;
+  border-bottom: outset black 2px;
+}
+
+nav {
+  background-color: $second-color;
+  @extend .border--black;
+}
+
+section {
+  background-color: $third-color;
+  background-image: url(../img/waves/wave3.svg), url(../img/waves/wave2.svg),
+    url(../img/logo/logo2.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top, bottom, center center;
+  background-size: auto, auto, 20vw;
+}
+
+.container__alone {
+  height: 30px;
+  background-color: $second-color;
+  @extend .border--black;
+}
+
+footer {
+  background-color: $first-color;
+  font-weight: map-get($fontweights, regular);
+}
